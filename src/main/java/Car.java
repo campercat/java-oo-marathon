@@ -33,4 +33,8 @@ public class Car extends Automobile {
       this.numPassengers -= exitPassengers;
     }
   }
+
+  public void companyGreeting() {
+    System.out.println("Thank you for riding with gÜber, we hope you enjoy your ride!");
+  }
 }

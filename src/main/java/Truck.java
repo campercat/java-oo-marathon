@@ -9,6 +9,7 @@ public class Truck extends Automobile {
     this.bedLengthFeet = bedLengthFeet;
     this.bedWidthFeet = bedWidthFeet;
     this.setRunning(false);
+    this.setInService(false);
     this.containerHeightFeet = 3;
   }
 
@@ -47,5 +48,9 @@ public class Truck extends Automobile {
 
   public void emptyCargo() {
     this.currentLoadCubicFeet = 0;
+  }
+
+  public void companyGreeting() {
+    System.out.println("Thank you for shipping with gÜber.");
   }
 }
